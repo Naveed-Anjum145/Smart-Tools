@@ -1,0 +1,24 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for the icon -->
+  <circle cx="30" cy="30" r="25" fill="#3498db" opacity="0.1"/>
+  
+  <!-- Main icon - gear with code symbol -->
+  <g transform="translate(30, 30)">
+    <!-- Outer gear -->
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#3498db" stroke-width="2"/>
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#3498db" stroke-width="2"/>
+    
+    <!-- Gear teeth -->
+    <rect x="-2" y="-20" width="4" height="6" fill="#3498db"/>
+    <rect x="-2" y="14" width="4" height="6" fill="#3498db"/>
+    <rect x="-20" y="-2" width="6" height="4" fill="#3498db"/>
+    <rect x="14" y="-2" width="6" height="4" fill="#3498db"/>
+    
+    <!-- Code symbol in center -->
+    <text x="0" y="4" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#3498db">&lt;/&gt;</text>
+  </g>
+  
+  <!-- Company name -->
+  <text x="70" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Smart</text>
+  <text x="70" y="45" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3498db">Tools</text>
+</svg> 
